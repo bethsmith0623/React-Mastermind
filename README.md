@@ -1,3 +1,14 @@
+### React Mastermind Game
+
+This lab was completed by Beth Smith during General Assembly's Unit 4 on React.
+
+Some of the code was starter code that was provided, some was my own code written to complete assignments.
+
+I hope you enjoy the game!
+
+
+
+----------------------------------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
