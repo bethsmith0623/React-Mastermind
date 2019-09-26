@@ -15,7 +15,7 @@ class App extends Component {
     // in its properties
     this.state = {
       selColorIdx: 0,
-      guesses: [this.getNewGuess(), this.getNewGuess()],
+      guesses: [this.getNewGuess(), this.getNewGuess(), this.getNewGuess(), this.getNewGuess()],
       code: this.genCode()
     };
   }
@@ -45,13 +45,13 @@ class App extends Component {
     let winTries = this.getWinTries();
     return (
       <div className="App">
-        <header className="App-header">React Mastermind</header>
+        <header className="App-header">R E A C T &nbsp;&nbsp;&nbsp; M A S T E R M I N D</header>
         <div className="flex-h">
           <GameBoard
             colors={colors}
             guesses={this.state.guesses}
           />
-          <div>
+          <div className="App-picker">
             <ColorPicker
               colors={colors}
               selColorIdx={this.state.selColorIdx}

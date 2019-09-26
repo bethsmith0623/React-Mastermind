@@ -2,8 +2,6 @@ import React from 'react';
 import './GuessScore.css';
 
 const GuessScore = ({ score }) => {
-  // Convert the score object to an array of four characters
-  // e.g., ['P', 'P', 'A', 'I']
   let scores = ('P'.repeat(score.perfect) + 'A'.repeat(score.almost) +
     'I'.repeat(4 - score.perfect - score.almost)).split('');
   
