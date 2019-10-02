@@ -1,6 +1,6 @@
 .GuessRow {
     display: flex;
-    flex-direction: nowrap;
+    flex-flow: row nowrap;
     align-items: center;
 }
 
